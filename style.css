@@ -1,0 +1,25 @@
+* {
+    background-color: lightgray;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    padding-bottom: 24px;
+}
+
+.button-container {
+    padding: 8px;
+}
+
+.symbol {
+    font-size: 32px;
+}
+
+.exchange {
+    font-size: 24px;
+}
+
+img {
+    height: 24px;
+}

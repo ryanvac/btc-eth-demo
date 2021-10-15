@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>BTC/ETH to USD</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Bitcoin and Ethereum Exchange Rates</h1>
+    <div class="grid">
+        <div class="row">
+            <div><!-- blank space --></div>
+            <div class="symbol"><strong>BTC</strong><img src="https://img.icons8.com/material-outlined/24/000000/bitcoin.png"/></div>
+            <div class="symbol"><strong>ETH</strong><img src="https://img.icons8.com/ios/50/000000/ethereum.png"/></div>
+        </div>
+        <div class="row blockchain">
+            <div class="exchange"><strong>blockchain.com</strong></div>
+            <div class="btc">
+                <div>Buy $<span class="buy"></span></div>
+                <div>Sell $<span class="sell"></span></div>
+            </div>
+            <div class="eth">
+                <div>Buy $<span class="buy"></span></div>
+                <div>Sell $<span class="sell"></span></div>
+            </div>
+        </div>
+        <div class="row coinbase">
+            <div class="exchange"><strong>coinbase.com</strong></div>
+            <div class="btc">
+                <div>Buy $<span class="buy"></span></div>
+                <div>Sell $<span class="sell"></span></div>
+            </div>
+            <div class="eth">
+                <div>Buy $<span class="buy"></span></div>
+                <div>Sell $<span class="sell"></span></div>
+            </div>
+        </div>
+    </div>
+    <div class="explanations">
+        You should...
+        <div>Buy BTC from <span id="buy-btc"></span></div>
+        <div>Sell BTC on <span id="sell-btc"></span></div>
+        <div>Buy ETH from <span id="buy-eth"></span></div>
+        <div>Sell ETH on <span id="sell-eth"></span></div>
+    </div>
+    <div class="button-container">
+        <button type="button" onclick="fillInfo()">Update Info</button>
+    </div>
+    <div>
+        <span>Note: Data from blockchain.com uses l2 orderbook information and finds highest bid and lowest ask.</span>
+    </div>
+</body>
+</html>
