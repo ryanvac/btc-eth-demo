@@ -1,5 +1,7 @@
 # btc-eth-demo
 
+Live version [here](https://ryanvac.github.io/btc-eth-demo/)
+
 Web page shoes the buy and sell prices of BTC and ETH in USD. Data taken from [blockchain.com](https://www.blockchain.com/) and [coinbase.com](https://www.coinbase.com/). 
 
 **Instructions**
